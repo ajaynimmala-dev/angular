@@ -19,7 +19,9 @@ export class UserComponent {
   get imagePath(){
     return 'assets/users/'+this.avatar;
   }
+
   onSelectUser(){
     this.select.emit(this.id);
   }
+
 }
